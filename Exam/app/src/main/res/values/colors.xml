@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sandyBrown">#F4A460</color>
+    <color name="mintColor">#BDFCC9</color>
+    <color name="shallowBlue">#4ac1f3</color>
+    <color name="grayColor">#999999</color>
+    <color name="bgGrayColor">#ebebeb</color>
+    <color name="whiteColor">#ffffffff</color>
+    <color name="numberShiHuang">#f9a848</color>
+    <color name="redColor">#c62f2f</color>
+    <color name="errGrayColor">#8be894</color>
+    <color name="rightGrayColor">#fc8d8d</color>
+    <color name="scoresRedColor">#e93a3a</color>
+    <color name="grayWhiteColor">#f0f0f0</color>
+    <color name="deepGray">#777777</color>
+    <color name="black">#000000</color>
+    <color name="rightGreen">#8be894</color>
+    <color name="erroRed">#fc8d8d</color>
+
+</resources>

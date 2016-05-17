@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:sliff="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="commitExam">are you sure commit？</string>
+    <string name="reExam">try again</string>
+    <string name="sure">sure</string>
+    <string name="cancle">cancel</string>
+    <string name="noSelected">no</string>
+    <string name="selected">yes</string>
+    <string name="result">totle:<sliff:g id="xxx">%1d</sliff:g> answered:<sliff:g id="xxx">%1d</sliff:g></string>
+    <string name="currentSubjectCode">number:<sliff:g id="xxx">%1d</sliff:g></string>
+    <string name="allSubjectNum">totle:<sliff:g id="xxx">%1d</sliff:g></string>
+    <string name="singleChoice">singleChoice</string>
+    <string name="mutilChoice">mutilChoice</string>
+    <string name="judgeChoice">judgeChoice</string>
+    <string name="completionSubject">completionSubject</string>
+    <string name="Subjective">Subjective</string>
+    <string name="previousSubject">previous</string>
+    <string name="nextSubject">next</string>
+    <string name="examResult">total:<sliff:g id="xxx">%1d</sliff:g> right:<sliff:g id="xxx">%1d</sliff:g> false:<sliff:g id="xxx">%1d</sliff:g> </string>
+    <item name="tag_first" type="id"/>
+    <item name="tag_second" type="id"/>
+    //5.17========================
+    <string name="exam_count">Count:%1s</string>
+    <string name="exam_publishTime">PublishTime:%1s</string>
+    <string name="exam_totalScore">TotalScore:%1s S</string>
+    <string name="exam_time">Time:%1s M</string>
+    <string name="exam_type">Type:%1s</string>
+
+</resources>

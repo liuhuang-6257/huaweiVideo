@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayWhiteColor">
+
+    <include
+        android:id="@+id/answer_sheet_commit"
+        layout="@layout/commit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/answer_sheet_commit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_examresult"
+        android:padding="15dp">
+
+        <include
+
+            android:id="@+id/answer_sheet_tab"
+            layout="@layout/answer_sheet_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+        <android.support.v7.widget.RecyclerView
+            android:fadingEdge="none"
+            android:paddingTop="5dp"
+            android:overScrollMode="never"
+            android:id="@+id/recycle_Answer_Sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/answer_sheet_tab"
+            android:background="@color/whiteColor"
+             />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/answer_sheet_commit"
+        android:background="@color/grayColor" />
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.exam.MainActivity"
+    android:id="@+id/activety_main"
+    app:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+    <include layout="@layout/examtab"
+        android:id="@+id/exam_tab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"/>
+<RelativeLayout
+    android:id="@+id/main_answer_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/exam_tab"
+    />
+</RelativeLayout>

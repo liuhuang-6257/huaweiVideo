@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp">
+
+    <EditText
+        android:background="@drawable/exam_completion_shap"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:height="80dp"
+        android:padding="5dp"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:textColorHint="@color/grayColor"
+        android:hint="填空(3)答案，请填在这里"
+        android:id="@+id/editText_exam_completion"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

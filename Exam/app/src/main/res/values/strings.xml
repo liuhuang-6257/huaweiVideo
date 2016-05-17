@@ -1,0 +1,29 @@
+<resources xmlns:sliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My Application</string>
+    <string name="commitExam">确定要交卷吗？</string>
+    <string name="reExam">重新考试</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="noSelected">未选</string>
+    <string name="selected">已选</string>
+    <string name="result">共<sliff:g id="xxx">%1d</sliff:g>题 已答<sliff:g id="xxx">%1d</sliff:g>题</string>
+    <string name="currentSubjectCode">第<sliff:g id="xxx">%1d</sliff:g>题</string>
+    <string name="allSubjectNum">共<sliff:g id="xxx">%1d</sliff:g>题</string>
+    <string name="singleChoice">单选题</string>
+    <string name="mutilChoice">多选题</string>
+    <string name="judgeChoice">判断题</string>
+    <string name="completionSubject">填空题</string>
+    <string name="Subjective">主观题</string>
+    <string name="previousSubject">上一题</string>
+    <string name="nextSubject">下一题</string>
+//51.7============================
+    <string name="exam_count">题目数:%1s</string>
+    <string name="exam_publishTime">发布时间:%1s</string>
+    <string name="exam_totalScore">总分:%1s分</string>
+    <string name="exam_time">考试时间:%1s分钟</string>
+    <string name="exam_type">所属类型:%1s</string>
+
+    <string name="examResult">共<sliff:g id="xxx">%1d</sliff:g>题 答对<sliff:g id="xxx">%1d</sliff:g>题 答错<sliff:g id="xxx">%1d</sliff:g>题 </string>
+    <item name="tag_first" type="id"/>
+    <item name="tag_second" type="id"/>
+</resources>

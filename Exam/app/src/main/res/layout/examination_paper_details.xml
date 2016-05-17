@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayWhiteColor">
+//5.17 颜色的改变
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_examresult"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_ExaminationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="14dp"
+            android:text="2016年安卓初级开发认证考试"
+            android:textColor="#222222"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/textView_ExaminationTitle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/bgGrayColor" />
+
+        <RelativeLayout
+            android:id="@+id/examination_rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_ExaminationTitle">
+
+            <TextView
+                android:id="@+id/textView_ExaminationCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="8dp"
+                android:text="题目数:100"
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/textView_ExaminationCameTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:text="发布时间:2016-10-12"
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/textView_ExaminationTotalScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/textView_ExaminationCount"
+                android:padding="8dp"
+                android:text="卷面总分:100分 80及格"
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/textView_ExaminationPlayTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView_ExaminationCameTime"
+                android:layout_below="@+id/textView_ExaminationCameTime"
+                android:padding="8dp"
+                android:text="考试时间:1小时20分"
+                android:textColor="#666666" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/examination_rl1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/bgGrayColor" />
+
+        <RelativeLayout
+            android:id="@+id/examination_rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/examination_rl1">
+
+            <TextView
+                android:id="@+id/textView_ExaminationTyple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="15dp"
+                android:text="所属类别"
+                android:textColor="#666666" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/examination_rl2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/bgGrayColor" />
+
+        <include
+            layout="@layout/commit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/examination_rl2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
